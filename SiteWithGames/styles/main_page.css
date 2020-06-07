@@ -1,5 +1,5 @@
 body {
-    background-image: url("../media/images/jpg/f0n.jpg");
+    background-image: url("../media/images/jpg/backgroung-main-body.jpg");
     max-width: 960px;
     margin: 0 auto;
 }
@@ -15,11 +15,6 @@ div {
      left: 25%;
  }
 
- ul{
-     position: absolute;
-     top: 237px;
-     left: 24%;
- }
 
  .header {
      border-radius: 10px 10px 0 0;

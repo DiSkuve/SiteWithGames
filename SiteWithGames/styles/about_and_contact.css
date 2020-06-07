@@ -1,10 +1,10 @@
 body {
-    background-image: url("media/images/jpg/f0n.jpg");
+    background-image: url("../media/images/jpg/backgroung-main-body.jpg");
     max-width: 960px;
     margin: 0 auto;
 }
 div {
-    border: 1px solid crimson;
+    border: 1px solid #dc143c;
     padding: 5px 15px;
 }
 h4 {
@@ -13,7 +13,7 @@ h4 {
 .header {
     border-radius: 10px 10px 0 0;
     margin-top: 38px;
-    background-image: url("media/images/png/fun.png");
+    background-image: url("../media/images/png/fun.png");
     min-height: 100px;
     line-height: 100px;
     text-align: center;
@@ -23,7 +23,7 @@ h4 {
 
 .navbar {
     overflow: hidden;
-    background-image: url("media/images/png/sidebar-img.png") ;
+    background-image: url("../media/images/png/sidebar-img.png") ;
     position: absolute;
     width: 928px;
     top: 180px;
@@ -52,7 +52,7 @@ h4 {
 }
 
 .container {
-    background-image: url("media/images/png/fun.png");
+    background-image: url("../media/images/png/fun.png");
     height: 1194px;
     text-align: justify;
     color: beige;
@@ -63,7 +63,7 @@ h4 {
     min-height: 10px;
     line-height: 10px;
     border-radius: 0 0 10px 10px;
-    background-image: url("media/images/png/fun.png");
+    background-image: url("../media/images/png/fun.png");
 }
 .center\.png{
     display: block;
@@ -71,4 +71,5 @@ h4 {
 }
 .colortext{
     color: darkred;
+    background-image: url("../media/images/png/fun.png");
 }
