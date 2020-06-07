@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
 }
 div {
-    border: 1px solid crimson;
+    border: 1px solid #dc143c;
     padding: 5px 15px;
 }
 h4 {
@@ -63,5 +63,13 @@ h4 {
     min-height: 10px;
     line-height: 10px;
     border-radius: 0 0 10px 10px;
+    background-image: url("../media/images/png/fun.png");
+}
+.center\.png{
+    display: block;
+    margin: 0 auto;
+}
+.colortext{
+    color: darkred;
     background-image: url("../media/images/png/fun.png");
 }
