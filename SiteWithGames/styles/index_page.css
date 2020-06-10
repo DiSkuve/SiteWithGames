@@ -31,6 +31,7 @@ div{
 }
 
 
+
 .navbar{
     background-image: url("../media/images/png/sidebar-img.png") ;
     overflow: hidden;
@@ -97,16 +98,13 @@ div{
 
 .container{
     position: absolute;
-    left: 22.5%;
-    width: 55%;
+    left: 33.5%;
+    width: 44%;
     top: 30%;
     background-image: url("../media/images/png/fun.png");
     height: 100%;
     overflow-y: auto;
     color: beige;
-}
-.container h3{
-    padding: 10px;
 }
 .container p{
     padding: 10px;
@@ -132,19 +130,4 @@ div{
 .footer a{
     font-size: 22.5px;
     margin-left: 5px;
-}
-
-
-
-.center\.png{
-    display: block;
-    margin: 0 auto;
-}
-
-
-
-.colortext{
-    margin-left: 20px;
-    color: darkred;
-    background-image: url("../media/images/png/fun.png");
 }
