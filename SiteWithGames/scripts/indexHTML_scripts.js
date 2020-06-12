@@ -34,3 +34,11 @@ function Search(){
 function Registration(){
     alert("in developing")
 }
+
+function OpenIndexHTML(){
+    window.open("index.html")
+}
+
+function OpenIndexHTMLup(){
+    window.open("../index.html")
+}

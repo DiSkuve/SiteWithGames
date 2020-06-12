@@ -13,7 +13,7 @@ div{
 
 .header{
     background-image: url("../media/images/jpg/header.png");
-    background-size: 385px;
+    background-size: 340px;
     overflow: hidden;
     position: absolute;
     left: 22.5%;
@@ -227,4 +227,8 @@ p{
 .bin{
     width: 15px;
     height: 15px
+}
+
+#logotype{
+    margin-top: 40px;
 }
