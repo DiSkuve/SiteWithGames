@@ -1,17 +1,19 @@
 body{
-    background-image: url("../media/images/jpg/backgroung-main-body.jpg");
+    background-image: url("../media/images/jpg/background-main-body2.jpg");
+    background-size: 1920px;
 }
 
 
 
 div{
-    border: 1px solid crimson;
+    border: 1px solid #1E0B8A;
 }
 
 
 
 .header{
-    background-image: url("../media/images/png/fun.png");
+    background-image: url("../media/images/jpg/header.png");
+    background-size: 385px;
     overflow: hidden;
     position: absolute;
     left: 22.5%;
@@ -31,8 +33,9 @@ div{
 }
 
 
+
 .navbar{
-    background-image: url("../media/images/png/sidebar-img.png") ;
+    background-image: url("../media/images/jpg/side-nav-bar.jpg") ;
     overflow: hidden;
     position: absolute;
     left: 22.5%;
@@ -55,7 +58,7 @@ div{
     color: black;
 }
 .navbar a.active {
-    background-color: darkred;
+    background-color: #73130e;
     color: white;
 }
 
@@ -100,15 +103,16 @@ div{
     left: 22.5%;
     width: 55%;
     top: 30%;
-    background-image: url("../media/images/png/fun.png");
+    background-image: url("../media/images/jpg/container.jpg");
+    background-size: 900px;
     height: 100%;
     overflow-y: auto;
     color: beige;
 }
-.container h3{
+.container p{
     padding: 10px;
 }
-.container p{
+.container h3{
     padding: 10px;
 }
 
@@ -116,7 +120,7 @@ div{
 
 .footer{
     padding-top: 1%;
-    background-image: url("../media/images/png/fun.png");
+    background-image: url("../media/images/jpg/footer.jpg");
     position: absolute;
     left: 22.5%;
     width: 55%;
@@ -129,7 +133,7 @@ div{
     margin-left: 15px;
     text-align: start;
 }
-.footer a{
+.footer a {
     font-size: 22.5px;
     margin-left: 5px;
 }
@@ -146,5 +150,36 @@ div{
 .colortext{
     margin-left: 20px;
     color: darkred;
-    background-image: url("../media/images/png/fun.png");
+    background-image: url("../media/images/png/container1.png");
+}
+
+
+#logreg{
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    height: 40px;
+    width: 40px;
+}
+#search{
+    position: absolute;
+    right: 65px;
+    top: 6px;
+    height: 40px;
+    width: 40px;
+}
+#searcher{
+    position: absolute;
+    right: 115px;
+    top: 13px;
+    background-color: #202020;
+    color: beige;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bin{
+    width: 15px;
+    height: 15px
 }

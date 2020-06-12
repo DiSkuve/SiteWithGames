@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Games4every0N3</title>
+    <title>Games4EV3R</title>
     <link rel = "stylesheet" href="styles/index_page.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src = "scripts/add_new_text.js"></script>
+    <script src = "scripts/indexHTML_scripts.js"></script>
 
 </head>
 <body>
@@ -15,6 +15,9 @@
     </div>
 
     <div class="navbar">
+        <input id = "searcher" type = "text" placeholder = "search">
+        <img id = "logreg" onclick = "Registration()" src = media/images/png/user-ico.png>
+        <img id = "search" onclick = "Search()" src = media/images/png/search.png>
         <a class="active" href="index.html">Home</a>
         <a href="pages/contact.html">Contact</a>
         <a href="pages/about.html">About</a>
@@ -31,9 +34,13 @@
     </div>
 
     <div class="container">
-        <input id = 'file' type = file>
-        <button onclick = "readFile(document.getElementById('file'))">read this file</button>
-        <div id ="newArticle"></div>
+        <form id = "frm1">
+            <a id="aboutnewarticle">Тут вы можете создать свою статью:</a><br>
+            <input type = "text" id = "newARTICLE1"  placeholder = "тема новости"><br>
+            <input type="text" id = "newARTICLE" placeholder = "новость">
+        </form>
+        <button id = "postB" name = "button" onclick = "PostText()">make a post</button>
+        <a id ="Articles"></a>
     </div>
 
     <div class="footer">
