@@ -1,8 +1,10 @@
 function readFile(object) {
-    var file = object.files[0]
-    var reader = new FileReader()
+    let file = object.files[0];
+    let reader = new FileReader();
     reader.onload = function() {
-        document.getElementById('out').innerHTML = reader.result
+        document.getElementById('newArticle').innerHTML += "<div id = 'out'></div>";
+        document.getElementById('out').innerHTML = reader.result;
+        document.getElementById('out').removeAttribute("id")
     }
     reader.readAsText(file)
 }
