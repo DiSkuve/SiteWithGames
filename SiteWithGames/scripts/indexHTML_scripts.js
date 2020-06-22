@@ -11,7 +11,7 @@ function PostText() {
 
     var input = document.getElementById("frm1");
     var text = "";
-    var i;
+    var i;  
     document.getElementById('Articles').innerHTML += "<p id = " + NameDiv + "></p>";
     for (i = 0 ; i < input.length ; i++){
         text += input.elements[i].value + "<br>";

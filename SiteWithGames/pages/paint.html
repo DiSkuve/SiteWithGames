@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games4EV3R</title>
+    <link rel = "stylesheet" href="../styles/paint_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src = "../scripts/paint_script.js"></script>
+
+</head>
+<body>
+
+<div class = "header">
+    <img onclick = "OpenIndexHTMLup()" id = "logotype" src = "../media/images/png/GAMES4EV3R-logo.png">
+</div>
+
+<div class="navbar">
+    <input id = "searcher" type = "text" placeholder = "search">
+    <img id = "logreg" onclick = "Registration()" src = ../media/images/png/user-ico.png>
+    <img id = "search" onclick = "Search()" src = ../media/images/png/search.png>
+    <a href="../index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a class = "active" href="paint.html">Paint</a>
+</div>
+
+<div class="sidebar">
+    <h4>Меню по играм</h4> <br>
+    <a href="steam://rungameid/730">CS:GO</a> <br>
+    <a href="steam://rungameid/289070">Civilisation VI</a><br>
+    <a href="steam://rungameid/570">Dota 2</a><br>
+    <a href="steam://rungameid/105600">Terraria</a><br>
+    <a onclick = "error()">Valorant</a><br>
+    <a href="steam://rungameid/648800">Raft</a><br>
+</div>
+
+<div class="container">
+    <canvas id="draw" width="818" height="460"></canvas><script></script>
+
+    <button class = "color" type = button onclick = drawing(0)>green</button>
+    <button class = "color" type = button onclick = drawing(1)>light blue</button>
+    <button class = "color" type = button onclick = drawing(2)>blue</button>
+    <button class = "color" type = button onclick = drawing(3)>pink</button>
+    <button class = "color" type = button onclick = drawing(4)>red</button>
+    <button class = "color" type = button onclick = drawing(5)>yellow</button>
+    <button class = "color" type = button onclick = drawing(6)>orange</button>
+    <button class = "color" type = button onclick = drawing(7)>black</button>
+    <button class = "color" type = button onclick = drawing(8)>white</button>
+    <input type = number id = "brushSize" value = 1>
+</div>
+
+<div class="footer">
+    <a>Контактная информация:</a><br>
+    <h2>example@gmail.com   +380976542049   Банановая 109</h2>
+</div>
+
+
+
+</body>
+</html>
